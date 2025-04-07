@@ -1,6 +1,6 @@
 # test.py
 import torch
-from .utils import build_dataset
+from sqlnet.utils import build_dataset
 from .sqlNet import SQLNet
 
 def simple_test_model():

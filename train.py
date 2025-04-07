@@ -2,8 +2,8 @@
 import torch
 import torch.nn as nn
 import torch.optim as optim
-from Model.module.utils import build_dataset, save_vocab
-from Model.module.sqlNet import SQLNet
+from sqlnet import build_dataset, save_vocab
+from sqlnet import SQLNet
 
 def main():
     # 1. 加载数据并构建词汇表
